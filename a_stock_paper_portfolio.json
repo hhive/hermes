@@ -1,0 +1,111 @@
+{
+  "currency": "CNY",
+  "initial_cash": 100000.0,
+  "cash": 44428.3,
+  "positions": [
+    {
+      "code": "sh510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "shares": 3700,
+      "avg_price": 4.801,
+      "last_price": 4.78,
+      "opened_at": "2026-05-19 10:22:42"
+    },
+    {
+      "code": "sh510500",
+      "name": "中证500ETF南方",
+      "shares": 2100,
+      "avg_price": 8.506,
+      "last_price": 8.145,
+      "opened_at": "2026-05-19 10:24:41"
+    },
+    {
+      "code": "sh601318",
+      "name": "中国平安",
+      "shares": 200,
+      "avg_price": 54.24,
+      "last_price": 53.29,
+      "opened_at": "2026-05-25 14:55:47"
+    },
+    {
+      "code": "sz000333",
+      "name": "美的集团",
+      "shares": 100,
+      "avg_price": 82.91,
+      "last_price": 83.85,
+      "opened_at": "2026-06-08 11:00:48"
+    }
+  ],
+  "trade_log": [
+    {
+      "time": "2026-05-19 10:22:42",
+      "action": "BUY",
+      "code": "sh510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "shares": 3700,
+      "price": 4.801,
+      "amount": 17763.7,
+      "reason": "分批建立底仓，选择流动性较好的沪深300ETF；指数整体偏弱，优先控制仓位；外部参考：宏观快照：当前宏观快照整体偏向风险偏好。；海外/综合新闻热度：elevated；最新：Sotera Health: Announces Secondary Offering of Common Stk；AI-Trader更新时间：2026-"
+    },
+    {
+      "time": "2026-05-19 10:24:41",
+      "action": "BUY",
+      "code": "sh510500",
+      "name": "中证500ETF南方",
+      "shares": 2100,
+      "price": 8.506,
+      "amount": 17862.6,
+      "reason": "分批建立底仓，选择流动性较好的中证500ETF；指数整体偏弱，优先控制仓位；外部参考：宏观快照：当前宏观快照整体偏向风险偏好。；海外/综合新闻热度：elevated；最新：Sotera Health: Announces Secondary Offering of Common Stk；AI-Trader更新时间：2026-"
+    },
+    {
+      "time": "2026-05-25 14:55:47",
+      "action": "BUY",
+      "code": "sh601318",
+      "name": "中国平安",
+      "shares": 200,
+      "price": 54.24,
+      "amount": 10848.0,
+      "reason": "分批建立底仓，选择流动性较好的中国平安；指数整体偏强，允许小幅提高仓位；外部参考：Tushare失败:ModuleNotFoundError；巨潮公告：未检出观察池近期重大风险关键词；访问策略：仅HTTP请求白名单域名，未使用浏览器自动化，未访问交易所/政府网站"
+    },
+    {
+      "time": "2026-05-28 14:56:40",
+      "action": "BUY",
+      "code": "sz159915",
+      "name": "创业板",
+      "shares": 3200,
+      "price": 4.135,
+      "amount": 13232.0,
+      "reason": "分批建立底仓，选择流动性较好的创业板ETF；指数整体偏强，允许小幅提高仓位；外部参考：Tushare失败:ModuleNotFoundError；巨潮公告：未检出观察池近期重大风险关键词；访问策略：仅HTTP请求白名单域名，未使用浏览器自动化，未访问交易所/政府网站"
+    },
+    {
+      "time": "2026-06-08 09:35:39",
+      "action": "SELL",
+      "code": "sz159915",
+      "shares": 3200,
+      "price": 3.883,
+      "name": "创业板",
+      "amount": 12425.6,
+      "reason": "触发约-6%风控止损，先退出观察；指数整体震荡，适合分批和轻仓试错；外部参考：Tushare失败:ModuleNotFoundError；巨潮公告：未检出观察池近期重大风险关键词；访问策略：仅HTTP请求白名单域名，未使用浏览器自动化，未访问交易所/政府网站"
+    },
+    {
+      "time": "2026-06-08 11:00:48",
+      "action": "BUY",
+      "code": "sz000333",
+      "name": "美的集团",
+      "shares": 100,
+      "price": 82.91,
+      "amount": 8291.0,
+      "reason": "分批建立底仓，选择流动性较好的美的集团；指数整体偏强，允许小幅提高仓位；外部参考：Tushare失败:ModuleNotFoundError；巨潮公告：未检出观察池近期重大风险关键词；访问策略：仅HTTP请求白名单域名，未使用浏览器自动化，未访问交易所/政府网站"
+    }
+  ],
+  "created_at": "2026-05-18 15:26:42 +0800",
+  "mode": "A-share paper trading simulation; no real orders are placed",
+  "rules": {
+    "market": "A股",
+    "lot_size": 100,
+    "max_single_position_pct": 0.25,
+    "max_positions": 6,
+    "risk_note": "educational simulation only, not personalized financial advice"
+  },
+  "updated_at": "2026-06-10 14:18:54"
+}

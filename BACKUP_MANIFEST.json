@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-10 14:27:41 ",
+  "source_home": "C:\\Users\\jax\\AppData\\Local\\hermes",
+  "policy": {
+    "included_files": [
+      "a_stock_paper_portfolio.json",
+      "a_stock_research_framework.md",
+      "cron/jobs.json",
+      "gateway_state.json"
+    ],
+    "included_dirs": [
+      "scripts",
+      "cron/output",
+      "skills"
+    ],
+    "excluded": [
+      ".env",
+      ".git",
+      ".venv",
+      "__pycache__",
+      "auth",
+      "auth.json",
+      "backups",
+      "cache",
+      "channel_directory.json",
+      "hermes-agent",
+      "logs",
+      "node_modules",
+      "sessions",
+      "sessions.json",
+      "state.db",
+      "state.db-shm",
+      "state.db-wal",
+      "venv",
+      "weixin"
+    ],
+    "note": "Secrets, auth, logs, raw sessions, runtime DBs, caches, and installed source/venv are intentionally excluded."
+  }
+}
