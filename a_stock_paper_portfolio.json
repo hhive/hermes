@@ -8,7 +8,7 @@
       "name": "沪深300ETF华泰柏瑞",
       "shares": 3700,
       "avg_price": 4.801,
-      "last_price": 4.78,
+      "last_price": 4.783,
       "opened_at": "2026-05-19 10:22:42"
     },
     {
@@ -16,7 +16,7 @@
       "name": "中证500ETF南方",
       "shares": 2100,
       "avg_price": 8.506,
-      "last_price": 8.145,
+      "last_price": 8.17,
       "opened_at": "2026-05-19 10:24:41"
     },
     {
@@ -24,7 +24,7 @@
       "name": "中国平安",
       "shares": 200,
       "avg_price": 54.24,
-      "last_price": 53.29,
+      "last_price": 53.21,
       "opened_at": "2026-05-25 14:55:47"
     },
     {
@@ -32,7 +32,7 @@
       "name": "美的集团",
       "shares": 100,
       "avg_price": 82.91,
-      "last_price": 83.85,
+      "last_price": 83.93,
       "opened_at": "2026-06-08 11:00:48"
     }
   ],
@@ -107,5 +107,5 @@
     "max_positions": 6,
     "risk_note": "educational simulation only, not personalized financial advice"
   },
-  "updated_at": "2026-06-10 14:18:54"
+  "updated_at": "2026-06-10 14:50:20"
 }
