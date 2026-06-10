@@ -46,7 +46,7 @@ EXCLUDE_DIR_NAMES = {
     "hermes-agent",
 }
 EXCLUDE_FILE_SUFFIXES = {".pyc", ".pyo", ".log", ".db", ".db-wal", ".db-shm", ".lock", ".pid"}
-EXCLUDE_FILE_NAMES = {".env", "auth.json", "state.db", "state.db-wal", "state.db-shm", "sessions.json", "channel_directory.json"}
+EXCLUDE_FILE_NAMES = {".env", "auth.json", "state.db", "state.db-wal", "state.db-shm", "sessions.json", "channel_directory.json", ".usage.json", ".curator_state", ".bundled_manifest", "lock.json", "taps.json"}
 
 
 def run(cmd: list[str], cwd: Path | None = None, check: bool = True) -> subprocess.CompletedProcess[str]:

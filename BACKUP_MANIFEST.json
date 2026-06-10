@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10 14:27:41 ",
+  "generated_at": "2026-06-10 14:29:05 ",
   "source_home": "C:\\Users\\jax\\AppData\\Local\\hermes",
   "policy": {
     "included_files": [
@@ -14,8 +14,11 @@
       "skills"
     ],
     "excluded": [
+      ".bundled_manifest",
+      ".curator_state",
       ".env",
       ".git",
+      ".usage.json",
       ".venv",
       "__pycache__",
       "auth",
@@ -24,6 +27,7 @@
       "cache",
       "channel_directory.json",
       "hermes-agent",
+      "lock.json",
       "logs",
       "node_modules",
       "sessions",
@@ -31,6 +35,7 @@
       "state.db",
       "state.db-shm",
       "state.db-wal",
+      "taps.json",
       "venv",
       "weixin"
     ],

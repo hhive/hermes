@@ -182,7 +182,53 @@
         "browser"
       ],
       "workdir": "C:\\Users\\jax\\AppData\\Local\\hermes"
+    },
+    {
+      "id": "6275d8b56445",
+      "name": "Hermes\u4ea7\u7269\u6bcf\u65e5Git\u5907\u4efd-17:00",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "hermes_git_backup.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * *",
+        "display": "0 17 * * *"
+      },
+      "schedule_display": "0 17 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-10T14:28:22.767005+08:00",
+      "next_run_at": "2026-06-10T17:00:00+08:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq809nC_QeX003r4H2BA8YP0yk@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": "C:\\Users\\jax\\AppData\\Local\\hermes",
+      "profile": null
     }
   ],
-  "updated_at": "2026-06-10T14:21:51.715196+08:00"
+  "updated_at": "2026-06-10T14:28:22.769007+08:00"
 }
