@@ -15,6 +15,20 @@ Use this skill when the user asks to restore, back up, migrate, repair, or verif
 4. Keep credentials local and private: `config.yaml`, `.env`, and `auth.json` may be intentionally excluded from Git backups and may need to be restored from a local backup.
 5. Distinguish durable restore steps from environment-specific failures. Capture retry patterns and safety checks, not transient network or setup errors.
 
+## Git-Backed Artifact Backup Workflow
+
+When maintaining scheduled scripts that mirror selected Hermes artifacts to Git:
+
+1. Keep paths portable: derive `HERMES_HOME` from `HERMES_HOME` or `Path.home() / ".hermes"`; avoid old host-specific paths.
+2. Bound Git subprocesses with explicit timeouts so no-agent cron jobs fail clearly before the scheduler timeout.
+3. Prefer SSH remotes for noninteractive cron pushes when SSH auth is configured; HTTPS requires token credentials.
+4. If a local proxy is required, inject `HTTP_PROXY`, `HTTPS_PROXY`, `ALL_PROXY` and lowercase variants for Git subprocesses from a script env var such as `HERMES_BACKUP_PROXY`.
+5. Treat partial clone directories without `.git` as failed worktrees and recreate or archive them before retrying.
+6. Push automated backups to a dedicated branch (for example `hermes-artifacts-backup`) when remote `main` has unrelated history; do not force-push unless explicitly requested.
+7. Verify both manual script execution and a scheduler-triggered run; then confirm the remote backup branch with `git ls-remote`.
+
+See `references/git-backed-artifact-backup.md` for failure signatures and a condensed troubleshooting recipe.
+
 ## Git-Backed Restore Workflow
 
 1. Inspect current state:
