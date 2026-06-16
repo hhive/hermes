@@ -1,0 +1,16 @@
+.env
+auth.json
+*.log
+*.db
+*.db-wal
+*.db-shm
+*.lock
+*.pid
+__pycache__/
+*.pyc
+cache/
+logs/
+sessions/
+weixin/
+hermes-agent/
+backups/

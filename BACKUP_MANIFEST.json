@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-06-16 13:56:42 ",
+  "source_home": "/home/ubuntu/.hermes",
+  "policy": {
+    "included_files": [
+      "a_stock_paper_portfolio.json",
+      "a_stock_research_framework.md",
+      "cron/jobs.json",
+      "gateway_state.json"
+    ],
+    "included_dirs": [
+      "scripts",
+      "cron/output",
+      "skills"
+    ],
+    "excluded": [
+      ".bundled_manifest",
+      ".curator_state",
+      ".env",
+      ".git",
+      ".usage.json",
+      ".venv",
+      "__pycache__",
+      "auth",
+      "auth.json",
+      "backups",
+      "cache",
+      "channel_directory.json",
+      "hermes-agent",
+      "lock.json",
+      "logs",
+      "node_modules",
+      "sessions",
+      "sessions.json",
+      "state.db",
+      "state.db-shm",
+      "state.db-wal",
+      "taps.json",
+      "venv",
+      "weixin"
+    ],
+    "note": "Secrets, auth, logs, raw sessions, runtime DBs, caches, and installed source/venv are intentionally excluded."
+  }
+}
