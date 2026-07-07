@@ -58,15 +58,17 @@ If fallback fills gaps, append:
 
 ## Report Content Checklist
 
-For A-share paper-trading reports, include:
+For A-share paper-trading reports, include these sections in the user's requested report language:
 
-- 股市情况: index levels and source-health line.
-- 热点/趋势与未来方向: concise style/sector relative strength and next direction.
-- 操作情况: latest simulated operation or `HOLD/等待`.
-- 操作原因: short rationale tied to trend, risk, and current exposure.
-- 资金情况: cash, estimated position value, estimated total assets, exposure.
-- 当前持仓: each position with shares, cost, latest price, and unrealized P/L.
-- 风险提示: paper-trading simulation only; not investment advice.
+- Market snapshot: index levels and source-health line.
+- Leadership, trend, and forward view: concise style/sector relative strength and next direction.
+- Operation: latest simulated operation or `HOLD`.
+- Reason: short rationale tied to trend, risk, and current exposure.
+- Capital: cash, estimated position value, estimated total assets, exposure.
+- Current holdings: each position with shares, cost, latest price, and unrealized P/L.
+- Risk notice: paper-trading simulation only; not investment advice.
+
+When converting an existing Chinese A-share report to English, translate both static labels and dynamic names that arrive from quote APIs or saved portfolio state. Add display-name mappings for index names, ETF full names, stock names, source names, and sector buckets. Verify by running the script and checking the delivered stdout for non-ASCII characters when the user asked for English-only output.
 
 ## When Delivery Fails
 
