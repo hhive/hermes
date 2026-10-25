@@ -203,15 +203,15 @@
       "schedule_display": "0 17 * * *",
       "repeat": {
         "times": null,
-        "completed": 136
+        "completed": 137
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-10T14:28:22.767005+08:00",
-      "next_run_at": "2026-10-25T17:00:00+08:00",
-      "last_run_at": "2026-10-23T17:00:52.626907+08:00",
+      "next_run_at": "2026-10-26T17:00:00+08:00",
+      "last_run_at": "2026-10-24T17:00:57.924112+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": "delivery error: Weixin send failed: iLink sendmessage rate limited; cooldown active for 30.0s",
@@ -230,5 +230,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-10-24T17:00:50.619656+08:00"
+  "updated_at": "2026-10-25T17:00:54.668109+08:00"
 }
